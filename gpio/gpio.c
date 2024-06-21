@@ -34,12 +34,12 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 
-#include <wiringPi.h>
-#include <wiringSerial.h>
-#include <wpiExtensions.h>
+#include "../wiringPi/wiringPi.h"
+#include "../wiringPi/wiringSerial.h"
+#include "../wiringPi/wpiExtensions.h"
 
-#include <gertboard.h>
-#include <piFace.h>
+#include "../devLib/gertboard.h"
+#include "../devLib/piFace.h"
 
 #include "../version.h"
 
